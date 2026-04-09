@@ -140,6 +140,50 @@ header{
     gap: 20px;
     justify-content: space-between;
 }
+.section4{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+.section4 aside{
+    display: flex;
+    gap: 25px;
+}
+.divcha{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.section4 .vak{
+    padding: 25px;
+}
+.section4 .grey{
+    font-size: 10px;
+}
+.section4 .vak nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.section4 button{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #D7B18D;
+    border-radius: 5px;
+}
+.vak{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #00000014;
+    border-radius: 10px;
+    padding: 20px;
+}
 
 
 
@@ -211,4 +255,27 @@ header{
 .flex2{
     flex-direction: column;
 }
+.section4 aside{
+        flex-direction: column;
+    }
+    .vak{
+        position: relative;
+    }
+    .section4 .vak .grey {
+        padding-bottom: 30px;
+    }
+    .divcha{
+        position: absolute;
+        top: 45px;
+    }
+    .section4 aside{
+        flex-direction: column;
+        /* margin-top:-100px; */
+    }
+    .section4{
+        padding:20px;
+    }
+    /* .position{
+        position: absolute;
+    } */
 }
